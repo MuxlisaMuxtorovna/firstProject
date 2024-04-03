@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+    width: 1920px;
+    background: #191411;
+    max-height: 100%;
+    color: #FFFFFF;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.block_1{
+    width: 1550px; 
+    height: 700px;
+    background: url(./image/Group\ 2.png)no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 1440px;
+    height: 100px;
+    padding: 0px 200px 0px 200px;
+    background: none;
+}
+
+.nav{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    background: none;
+
+}
+
+.logo{
+    margin-left: 0px;
+}
+
+.menu{
+    width: 430px;
+    height: 30px;
+    margin-left: 80px;
+}
+.hero{
+    display: flex;
+}
+.rasm{
+    width: 1000px;
+    height: 700px;
+}
+
+
+a{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.currency{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    top: 40px;
+    margin-left: 250px;
+}
+.cont_header{
+    width: 600px;
+    height: 650px;
+}
+.cont_text{
+    width: 530px;
+    height: 250px;
+    margin-top: 80px;
+}
+.cont_btn{
+    border-radius: 100px;
+    padding: 0px 10px 10px;
+    width: 120px;
+    height: 10px;
+    background-color: red;
+}
+.yangi_m{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+}
+.h1_burger{
+    font-size: 90px;
+}
+.p_1{
+    font-size: 18px;
+}
+.btn_menu{
+    width: 170px;
+    height: 45px;
+    margin-left: -40px;
+    border-radius: 8px;
+    margin-top: 30px;
+    background: linear-gradient(to right, rgb(131, 52, 0) 0%, rgb(255, 255, 0) 170%);
+}
+
+
+.block_2{
+    background: url(./image/whybg.png)no-repeat;
+    width: 1440px;
+    height: 400px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.b2_text{
+    font-size: 40px;
+    text-align: center;
+}
+.cont_b2{
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 210px;
+}
+.cont_b2_1{
+    width: 280px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 24px;
+}
+.b2_img{
+    width: 80px;
+    height: 80px;
+    margin: 5px 95px;
+}
+.h1_b2{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.block_3{
+    background: url(./image/burgers_bg.png) no-repeat;
+    width: 1440px;
+    height: 1500px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.b3_text{
+    font-size: 50px;
+    text-align: center;
+}
+.cont_b3_1{
+    border: #FFFFFF 1px solid;
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.cont_b3_2{
+    border: #FFFFFF 1px solid;
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.card{
+    border: #FFFFFF 1px solid;
+    width: 250px;
+    height: 350px;
+    margin-left: 58px;
+    background-color: #191411;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.b3_img{
+    width: 150px;
+    height: 120px;
+    margin: 0px 50px;
+}
+.card_b3_text{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.cont_price{
+    font-size: 25px;
+    margin: 15px 0px;
+}
+.cont_g{
+    font-size: 15px;
+    color: #ffffff7a;
+    margin: 0px 0px;
+}
+.card_btn{
+    width: 130px;
+    height: 30px;
+    margin-left: 100px;
+    background: linear-gradient(to right, rgb(131, 52, 0) 0%, rgb(255, 255, 0) 170%);;
+}
+.btn_text{
+    font-size: 10px;
+}
+.card p{
+    font-size: 14px;
+}
